@@ -2,6 +2,10 @@ package Booking;
 
 import java.util.*;
 
+/**
+ * @author jeevithasadasivam
+ *
+ */
 public final class ExerciseClass {
 
 	String day = null;

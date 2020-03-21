@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
- * @author LAPTOP_MP0295
+ * @author jeevithasadasivam
  *
  */
 public class Change_booking {
