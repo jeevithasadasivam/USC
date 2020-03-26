@@ -4,6 +4,7 @@ import java.util.Scanner;
 import static Booking.Change_booking.cb;
 import static Booking.ExerciseClass.exer;
 import static Booking.Review.re;
+import static Booking.Income_report.income;
 import static Booking.Report.r;
 
 
@@ -48,7 +49,9 @@ public class USC {
 			USC_main();
 			break;
 		case 5:
-			
+			income=new Income_report();
+			System.out.println("Do you want to select another option\n");
+			USC_main();
 			break;
 		case 6:
 			break;
