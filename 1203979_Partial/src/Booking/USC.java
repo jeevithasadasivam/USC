@@ -1,14 +1,17 @@
 package Booking;
 
 import java.util.Scanner;
-
-
 import static Booking.Change_booking.cb;
 import static Booking.ExerciseClass.exer;
 import static Booking.Review.re;
+import static Booking.Report.r;
 
-public class USC{
 
+/**
+ * @author jeevithasadasivam
+ *
+ */
+public class USC {
 
 	public static void USC_main() {
 		
@@ -39,7 +42,10 @@ public class USC{
 			USC_main();
 			break;
 		case 4:
-			
+			r=new Report();
+			r.rating();
+			System.out.println("Do you want to select another option\n");
+			USC_main();
 			break;
 		case 5:
 			
